@@ -48,8 +48,8 @@
 			],
       "env-overrides": {
         "PYTHONPATH": "/opt/runners/task-runner-python",
-        "N8N_RUNNERS_STDLIB_ALLOW": "json,zipfile,io,base64,datetime,re,math,random,statistics,functools,itertools,collections,subprocess,sys,os,tempfile,hashlib,hmac,uuid,datetime,time,typing,dataclasses,xml,csv,concurrent.futures",              
-        "N8N_RUNNERS_EXTERNAL_ALLOW": "numpy,pandas,pydantic,requests"     
+        "N8N_RUNNERS_STDLIB_ALLOW": "json,zipfile,io,base64,datetime,re,math,random,statistics,functools,itertools,collections,subprocess,sys,os,tempfile,hashlib,hmac,uuid,datetime,time,typing,dataclasses,xml,csv,asyncio,concurrent",              
+        "N8N_RUNNERS_EXTERNAL_ALLOW": "numpy,pandas,pydantic,requests,boto3"     
         
       }
     }
